@@ -1,7 +1,9 @@
 import riot_api_calls as rac
 
+import sys
+sys.path.append('../')
+
 if __name__ == "__main__":
-    print("Main Running")
     print(rac.get_summoner_info("shadogi", "na1"))
 
     # Sequence
